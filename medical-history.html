@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Care Bridge - Medical Records</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Care Bridge</h1>
+    <div class="nav-right">
+      <button class="btn-icon">🔔</button>
+      <img src="https://via.placeholder.com/40" alt="profile" class="profile-pic"/>
+      <button class="logout">Logout</button>
+    </div>
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="medical-history.html" class="active">Medical Records</a>
+      <a href="appointment-history.html">Appointment History</a>
+    </aside>
+    <main class="main">
+      <section class="box">
+        <h2>My Medical Records</h2>
+        <ul class="records">
+          <!-- No pre-existing records to display -->
+        </ul>
+        <button id="uploadBtn" class="btn upload">Upload New Record</button>
+        <input type="file" id="fileInput" style="display:none" />
+      </section>
+    </main>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

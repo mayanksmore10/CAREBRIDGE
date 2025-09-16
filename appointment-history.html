@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Care Bridge - Appointment History</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Care Bridge</h1>
+    <div class="nav-right">
+      <button class="btn-icon">🔔</button>
+      <img src="https://via.placeholder.com/40" alt="profile" class="profile-pic"/>
+      <button class="logout">Logout</button>
+    </div>
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="medical-history.html">Medical Records</a>
+      <a href="appointment-history.html" class="active">Appointment History</a>
+     
+    </aside>
+    <main class="main">
+      <section class="box">
+        <h2>Appointment History</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Doctor</th>
+              <th>Date</th>
+              <th>Status</th>
+              <th>Invoice</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dr. Mehta (Cardio)</td>
+              <td>05 Sep 2025</td>
+              <td class="status success">Completed</td>
+              <td><a href="#">Download</a></td>
+            </tr>
+            <tr>
+              <td>Dr. Sharma (Dermat)</td>
+              <td>12 Aug 2025</td>
+              <td class="status cancelled">Cancelled</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
